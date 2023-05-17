@@ -1,0 +1,17 @@
+/*Element Selector*/
+h1{
+    color: red;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+/*Class Selector*/
+.color{
+    color: blueviolet;
+}
+
+/*ID Selector*/
+#color{
+    color: blue;
+    font-size: 30px;
+}
