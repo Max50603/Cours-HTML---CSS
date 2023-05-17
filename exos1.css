@@ -1,0 +1,18 @@
+.profil{
+    margin: auto;
+    width: 500px;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+
+.centre{
+    text-align: center;
+}
+
+h3, h4{
+    margin: 0;
+    color: red;
+}
