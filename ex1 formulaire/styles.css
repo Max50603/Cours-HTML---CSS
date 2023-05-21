@@ -1,0 +1,104 @@
+nav{
+    width: 100%;
+    height: 100px;
+    background: grey;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    height: 50px;
+    width: 200px;  
+    background: chartreuse;
+    margin-top: 25px;
+    text-decoration: none;
+
+}
+
+.gbox{
+    height: 800px;
+    width: 800px;
+    background: #FFD9D9;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.pbox{
+    width: 600px;
+    width: 600px;
+    background: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1{
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: sans-serif;
+}
+
+.petit{
+    margin-left: 40px;
+    font-family: sans-serif;
+    
+}
+
+.formulaire{
+    background: #FFD9D9;
+    border-radius: 10px;
+    height: 40px;
+    width: 500px;
+    margin-top: 7px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+select{
+    background: #FFD9D9;
+    border-radius: 10px;
+    height: 40px;
+    width: 500px;
+    margin-top: 7px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+textarea{
+    background: #FFD9D9;
+    border-radius: 10px;
+    height: 200px;
+    width: 500px;
+    margin-top: 7px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.bt{
+    display: flex;
+    justify-content: center;
+}
+
+.id{
+    height: 60px;
+    width: 450px;
+    font-size: 30px;
+    font-family: sans-serif;
+    box-shadow: 3px 3px 0px #aaa;
+    cursor: pointer;
+    border: none;
+}

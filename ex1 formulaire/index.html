@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    
+    <nav>
+        <div class="header">
+            <button class="btn" type="button"><a href="../../../CV/index.html">CV</button></a>
+        </div>
+    </nav>
+
+    <section>
+        <div class="gbox">
+            <div class="pbox">
+                <h1>Contactez-nous</h1>
+                <p>Un problème, une question, envie de nous envoyer un message d’amour ? 
+                   N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
+                <form>    
+                    <label class="petit" for="nom">Votre Nom</label><br>
+                    <input class="formulaire" type="text" id="nom" name="nom" placeholder="Martin" required><br>
+                    <label class="petit" for="email">Votre e-mail</label><br>
+                    <input class="formulaire" type="email" id="email" name="email" placeholder="monadresse@mail.com" required><br>
+                    <label class="petit" for="message">Quel est le sujet de votre message ?</label><br>
+                        <select>
+                            <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+                            <option value="probleme-compte">Problème avec mon compte</option>
+                            <option value="question-produit">Question à propos d’un produit</option>
+                            <option value="suivi-commande">Suivi de ma commande</option>
+                            <option value="autre">Autre...</option>
+                        </select><br>
+                    <label class="petit" for="message">Votre message</label><br>
+                    <textarea class="message" name="message" placeholder="Bonjour, je vous contact car..." required></textarea><br>
+                    <div class="bt">
+                        <button class="id" type="submit">Envoyer mon message</button>
+                    </div>    
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
