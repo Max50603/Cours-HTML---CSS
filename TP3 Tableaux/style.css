@@ -1,3 +1,9 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 caption{
     font-size: 30px;
     margin-bottom: 20px;
