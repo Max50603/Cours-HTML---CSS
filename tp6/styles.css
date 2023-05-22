@@ -3,11 +3,16 @@ caption{
 }
 
 table{
-    border: 5px solid blueviolet;
+    border: 5px double blueviolet;
     border-collapse: collapse;
+    
 }
 
 th, td, tr{
     border: 2px solid black;
     
+}
+
+th{
+    background: aqua;
 }
