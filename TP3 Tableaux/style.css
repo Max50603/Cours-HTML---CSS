@@ -1,7 +1,8 @@
 div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+     width: auto;
+    height: 1000px;
+    margin: 0 auto;
+    background-image: url(https://www.studioghibli.fr/wp-content/uploads/2019/04/le-voyage-de-chihiro-photo-1053523.jpg);
 }
 
 caption{
@@ -11,6 +12,9 @@ caption{
 
 table{
     border-collapse: collapse;
+    width: 600px;
+    height: 400px;
+    margin: 10px;
 }
 
 th, td, tr{
