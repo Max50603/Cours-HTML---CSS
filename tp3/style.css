@@ -1,13 +1,13 @@
-li:nth-child(even){
+li:nth-child(odd){
     color: blue;
 }
 
 
-ul:hover li:nth-child(even) {
+ul:hover li:nth-child(odd) {
     color: black;
 }
 
-ul:hover li:nth-child(odd){
+ul:hover li:nth-child(even){
     color: blue;
 }
 
