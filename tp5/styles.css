@@ -1,0 +1,43 @@
+.container1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to left bottom, red, green, blue);
+}
+
+.container2{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    background: linear-gradient(-70deg, yellow, rgb(150, 0, 150) 25%);
+}
+
+.container3{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    background-image: linear-gradient(to top, rgba(0,0,0,0) 50%, rgba(0,0,0,1));
+}
+
+.container4{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    background-image: radial-gradient(rgb(110, 221, 255), rgb(231, 110, 255));
+}
+
+.container5{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    background-image: repeating-radial-gradient(black, white 10px);
+}
+
+.container5:hover{
+    background-image: repeating-radial-gradient(white, black 10px);
+}
