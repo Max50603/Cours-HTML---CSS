@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Infos Personnelles</legend>
+                <label type="text">Nom:</label>
+                <input type="name" maxlength="20" minlength="2" placeholder="Nom"><br>
+        
+                <label type="text">Prénom:</label>
+                <input type="prenom" maxlength="20" minlength="2" placeholder="Prénom"><br>
+        
+                <label type="text">Email:</label>
+                <input type="email" maxlength="20" minlength="2" placeholder="email"><br>
+            
+                <label type="text">Numéro:</label>
+                <input type="numéro" maxlength="20" minlength="2" placeholder="numéro"><br>
+        
+                <label type="password">Password</label>
+                <input type="password" placeholder="password"><br>
+        
+                <label type="text">Age</label>
+                <input type="age" placeholder="age"><br>
+            
+            <textarea cols="70" rows="10" placeholder="Entrez votre commentaire"></textarea><br>
+
+            <input type="date"><br>
+            <input type="file"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Vous préferez</legend>
+                <input type="checkbox" checked="">HTML<br>
+                <input type="checkbox">CSS<br>
+                <input type="checkbox">JavaScript<br>
+                <input type="checkbox">Ne rien faire<br>
+        </fieldset>
+        <fieldset>
+            <legend>Vous Vous levez</legend>    
+                <input type="radio" name="radio" value="Le Matin">Le Matin<br>
+                <input type="radio" name="radio" value="Le Midi">Le Midi<br>
+                <input type="radio" name="radio" value="Le Soir">Le Soir<br>
+                <input type="radio" name="radio" value="En retard !">En retard !<br>
+        </fieldset>
+        <fieldset>
+            <legend>Fin du Formulaire</legend>
+                <label for="liste">Je suis une liste:</label>
+                <select name="liste">
+                    <optgroup label="Team pas encore">
+                        <option value="J'en veut plus">J'en veut plus</option>
+                        <option value="C'est Super !">C'est Super</option>
+                    </optgroup>
+                    <optgroup label="Team Oula">
+                        <option value="J'en ai marre">J'en ai marre</option>
+                        <option value="Pitié !">Pitié !</option><br>
+                    </optgroup>
+                </select>
+            <button type="submit">Envoyer</button>
+            <button type="reset">Reset</button> 
+        </fieldset>
+    </form>
+</body>
+</html>
