@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    background: violet;
+}
+
+p{
+    border: 2px solid green;
+    background: grey;
+}
+
+.box1{
+    height: 100px;
+    padding: 20px;
+    margin: 0;
+}
+
+.box2{
+    width: 50%;
+    padding: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.box3{
+    height: 200px;
+    width: 200px;
+    padding: -30px;
+    margin: auto;
+}
+
