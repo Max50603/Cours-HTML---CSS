@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Contact</title>
 </head>
 <body>
     <header>
@@ -15,21 +15,37 @@
         <nav>
             <ul>
                 <li><a href="https://google.fr" target="_blank">Google</a></li>
-                <li><a href="https://google.fr" target="_blank">Blog</a></li>
+                <li><a href="/TP4_HTML/blog.html" target="_blank">Blog</a></li>
                 <li><a href="" target="_blank">Gallerie</a></li>
                 <li><a href="/TP4_HTML/contact.html" target="_blank">Contact</a></li>
             </ul>
         </nav>
     </header>
+    <section>
+        <form method="post" action="monProgramme.php"></form>
+    </section>
+    
     <form>
-        <fieldset>   
-            <label for="nom">Nom:</label><br>
+        <fieldset>
+            <legend>Contact</legend>   
+            <label for="nom">Nom:*</label>
             <input type="text" name="Nom" minlength="2" maxlength="20" placeholder="Entrez votre nom"><br>
-            <label for="nom">Mail:</label><br>
+            <label for="nom">Mail:*</label>
             <input type="text" name="email" placeholder="Entrez votre mail"><br>
             <label for="nom">Commentaire:</label><br>
             <textarea placeholder="Entrez un commentaire" cols="70" rows="10"></textarea><br>
+            <input type="checkbox" checked="">Envoyez une copie par mail
+            <input type="button" type="submit" value="envoyer">
+            <input type="button" type="reset" value="reset">
         </fieldset>
     </form>
+    <footer>
+        <ul>
+            <li><a href="">Lien Fictif</a></li>
+            <li><a href="">Lien Fictif</a></li>
+            <li><a href="">Lien Fictif</a></li>
+            <li><a href="">Lien Fictif</a></li>
+        </ul>
+    </footer>
 </body>
 </html>

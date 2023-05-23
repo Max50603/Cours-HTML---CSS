@@ -1,0 +1,67 @@
+body{
+    background-image:linear-gradient(#CCDAE0, #EDF2F4);
+    width: 800px;
+    margin: auto; 
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border: #8D99AE solid 2px;
+
+}
+
+.image{
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+header{
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1{
+    color: #EF233C;
+    font-size: 40px;
+    font-weight: 1000;
+
+}
+
+h3{
+    color: #2B2D42;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: dotted 2px black;
+}
+
+article{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    width: auto;
+}
+
+footer{
+    text-align: right;
+}
+
+p{
+    margin: 30px;
+}
+
+a:link{
+    color: #D90429;
+}
+
+a:hover{
+    color:  #2B2D42;
+}
+
+a:visited{
+    color: grey;
+}
+
