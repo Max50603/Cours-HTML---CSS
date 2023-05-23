@@ -1,0 +1,21 @@
+body{
+    background: grey;
+}
+
+h1{
+    text-align: center;
+}
+
+nav{
+    background: rosybrown;
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}
+
+
