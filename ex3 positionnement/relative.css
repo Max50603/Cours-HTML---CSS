@@ -1,0 +1,8 @@
+.container{
+    width: 300px;
+    height: 200px;
+    background: grey;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
