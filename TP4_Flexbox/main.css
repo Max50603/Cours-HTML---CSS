@@ -8,6 +8,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
+    
+    
 }
 
 .dot{
@@ -16,5 +19,9 @@
     border: 1px red solid;
     background-color: red;
     border-radius: 10px;
+    
 }
 
+#d4{
+    align-self: center;
+}
