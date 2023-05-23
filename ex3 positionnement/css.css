@@ -1,0 +1,41 @@
+.container{
+    width: 1200px;
+    height: 1200px;
+    border: 5px solid black;
+    font-size: 30px;
+}
+
+.absolute{
+    height: 300px;
+    width: 300px;
+    background: chartreuse;
+    position: absolute;
+    top: 0;
+    right: 0;    
+}
+
+.fixed{
+    height: 300px;
+    width: 300px;
+    background: red;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.relative{
+    height: 300px;
+    width: 300px;
+    background: blue;
+    position: relative;
+    top: 900px;
+    
+
+}
+
+.static{
+    height: 300px;
+    width: 300px;
+    background: orange;
+    position: static;
+}
