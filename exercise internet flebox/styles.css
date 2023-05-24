@@ -1,0 +1,38 @@
+body{
+    width: 960px;
+    margin: 20px auto;
+}
+
+.page{
+    width: 100%;
+    background: grey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.orange{
+    background: orange;
+}
+
+header{
+    background: green;
+    width: auto;
+    height: 100px;
+}
+
+section{
+    background: blue;
+    width: 70%;
+    height: 300px;
+}
+
+aside{
+    background: red;
+    width: 15%;
+}
+
+footer{
+    width: auto;
+    height: 50px;
+    background: grey;
+}
