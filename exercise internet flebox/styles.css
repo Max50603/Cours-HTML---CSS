@@ -1,38 +1,79 @@
 body{
     width: 960px;
     margin: 20px auto;
+    background: #e6bdce;
 }
 
 .page{
     width: 100%;
-    background: grey;
+    background: #7c52a6;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .orange{
-    background: orange;
+    background: #d196c2;
+    order: -1;
 }
 
 header{
-    background: green;
+    background: #27264e;
     width: auto;
     height: 100px;
+    color: white;
+    font-size: 30px;
 }
 
 section{
-    background: blue;
+    background: #ffffff;
     width: 70%;
     height: 300px;
+    box-shadow: 2px 0px #7c52a6;
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 aside{
-    background: red;
+    background: #d196c2;
     width: 15%;
+    color: #ffffff;
+    
 }
 
 footer{
     width: auto;
-    height: 50px;
-    background: grey;
+    height: 100px;
+    background: #012a37;
+}
+
+.main-nav{
+    height: 60px;
+    width: 960px;
+    background: #7c52a6;
+}
+
+.centre{
+    padding-top: 10px;
+}
+
+ul{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    list-style: none;
+}
+
+button{    
+    padding: 10px 50px;
+    border-radius: 10px;
+    background: #27264e;
+}
+
+.accueil{
+    background: #d196c2;
+}
+
+a{
+    color: white;
 }
