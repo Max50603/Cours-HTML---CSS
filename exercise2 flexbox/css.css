@@ -1,0 +1,106 @@
+body{
+    width: 1000px;
+    height: 1000px;
+    background: grey;
+    margin: 20px auto;
+    border: 5px solid black;
+    
+}
+
+header{
+    width: 820px;
+    height: 100px;
+    background: red;
+}
+
+main{
+    width: 600px;
+    height: 500px;
+    background: green;
+    margin-top: 20px;
+}
+
+section{
+    width: 200px;
+    height: 500px;
+    background: orange;
+    float: right;
+    position: relative;
+    bottom: 500px;
+    right: 180px;
+    
+}
+
+footer{
+    width: 820px;
+    height: 100px;
+    background: blue;
+    margin-top: 20px;
+}
+
+
+.item1{
+    width: 50px;
+    height: 30px;
+    background: white;
+}
+
+.item2{
+    width: 50px;
+    height: 30px;
+    background: white;
+}
+
+.item3{
+    width: 50px;
+    height: 30px;
+    background: white;
+}
+
+.item4{
+    width: 50px;
+    height: 30px;
+    background: white;
+}
+
+.item5{
+    width: 50px;
+    height: 30px;
+    background: white;
+}
+
+.item6{
+    width:50px;
+    height: 30px;
+    background: white;
+}
+
+.item7{
+    width: 50px;
+    height: 30px;
+    background: white;
+}
+
+.item8{
+    width: 50px;
+    height: 30px;
+    background: white;
+}
+
+.item9{
+    width: 50px;
+    height: 30px;
+    background: white;
+}
+
+.item10{
+    width: 50px;
+    height: 30px;
+    background: white;
+}
+
+.item11{
+    width: 50px;
+    height: 30px;
+    background: white;
+}
