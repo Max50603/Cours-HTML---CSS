@@ -21,6 +21,10 @@ header{
     height: 100px;
     color: white;
     font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 50px;
+    font-family: sans-serif;
 }
 
 section{
@@ -31,12 +35,19 @@ section{
     font-size: 30px;
     margin-left: 5px;
     margin-right: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: sans-serif;
 }
 
 aside{
     background: #d196c2;
     width: 15%;
     color: #ffffff;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 25px;
     
 }
 
@@ -50,6 +61,8 @@ footer{
     height: 60px;
     width: 960px;
     background: #7c52a6;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .centre{
@@ -76,4 +89,14 @@ button{
 
 a{
     color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+.lien{
+    padding-top: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
 }
