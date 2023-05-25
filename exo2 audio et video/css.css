@@ -1,0 +1,27 @@
+body{
+    background: chartreuse;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+audio{
+    border: 5px solid black;
+    background: rosybrown;
+    margin: 20px;
+}
+
+video{
+    border: 5px solid black;
+    margin: 20px;
+}
+
+iframe{
+    border: 5px solid black;
+    margin: 20px;
+    
+}
+
