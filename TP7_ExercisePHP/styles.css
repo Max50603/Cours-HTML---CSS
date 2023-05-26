@@ -1,0 +1,83 @@
+body{
+    background: grey;
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    position: relative;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    background: chartreuse;
+    border-radius: 50%;
+}
+
+.anim-1{
+    margin-left: 80px;
+    animation-name: animation-1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+}
+
+@keyframes animation-1 {
+    0% {
+    }
+    100% {
+      margin-top: 160px;
+    }
+}
+
+
+.anim-2 {
+    margin-top: 160px;
+    animation-name: animation-2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+}
+  @keyframes animation-2 {
+    0% {
+    }
+    100% {
+      margin-top: 0px;
+      margin-left: 160px;
+    }
+}
+
+.anim-3{
+    animation-name: animation-3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+}
+
+@keyframes animation-3{
+    0%{
+    }
+
+    33%{
+        margin-top: 0px;
+        margin-left: 160px;
+    }
+
+    66%{
+        margin-left: 0px;
+        margin-top: 160px;
+    }
+
+    100%{
+        margin-top: 160px;
+        margin-left: 160px;
+    }
+}
