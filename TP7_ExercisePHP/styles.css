@@ -31,6 +31,7 @@ body{
     }
     100% {
       margin-top: 160px;
+      background-color: black;
     }
 }
 
@@ -50,6 +51,7 @@ body{
     100% {
       margin-top: 0px;
       margin-left: 160px;
+      background-color: blueviolet;
     }
 }
 
@@ -69,15 +71,18 @@ body{
     33%{
         margin-top: 0px;
         margin-left: 160px;
+        background-color: aqua;
     }
 
     66%{
         margin-left: 0px;
         margin-top: 160px;
+        background-color: blue;
     }
 
     100%{
         margin-top: 160px;
         margin-left: 160px;
+        background-color: cadetblue;
     }
 }
