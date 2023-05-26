@@ -1,7 +1,27 @@
-img:hover{
+img{
+    width: 500px;
+    height: 500px;
+}
+
+.img1:hover{
     transform: scale(2, 2);
 }
 
-img:active{
+.img1:active{
     transform: rotate(45deg);
+}
+
+.img2:hover{
+    transform: skew(40deg);
+}
+
+.img2:active{
+    transform: translateX(200px);
+}
+
+p:hover{
+    transform: scale(50%);
+    transform: translateX(20px);
+    rotate: 30deg;
+    transform: rotate(35deg);
 }
