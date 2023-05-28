@@ -51,9 +51,5 @@
     aside p{
         grid-column: 1 / span 4;
         margin: 0;
-
     }
-    
-
-
 }
