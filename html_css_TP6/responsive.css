@@ -52,4 +52,13 @@
         grid-column: 1 / span 4;
         margin: 0;
     }
+
+    #mes_photos p{
+        display: grid;
+        grid-template-columns: 100px 100px;
+    }
+
+    #mes_photos p img{
+        width: 100%;
+    }
 }
