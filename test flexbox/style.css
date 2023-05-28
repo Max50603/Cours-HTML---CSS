@@ -1,0 +1,51 @@
+.container{
+    height: 1000px;
+    width: 1000px;
+    background: grey;
+    margin: 0px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+}
+
+header{
+    margin: 10px;
+    width: 980px;
+    height: 100px;
+    background: #5993ee;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+
+}
+
+nav{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background: #1f219d;
+    width: 150px;
+    height: 400px;
+    color: white;
+    
+}
+
+section{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 820px;
+    height: 400px;
+    background: #444547;
+    color: white;
+}
+
+footer{
+    background: #081f4d;
+    height: 100px;
+    width: 980px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
