@@ -1,0 +1,28 @@
+body{
+    display: flex;
+}
+
+header{
+    height: 80px;
+    width: auto;
+    background: grey;
+}
+
+nav{
+    width: 60px;
+    height: 100px;
+    background: green;   
+}
+
+main{
+    height: 400px;
+    width: 100px;
+    background: orange;
+}
+
+footer{
+    height: 40px;
+    width: 100px;
+    background: red;
+}
+
