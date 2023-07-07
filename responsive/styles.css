@@ -1,0 +1,24 @@
+/* PRESENTATION DE PAGE */
+h1{
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 500px;
+}
+
+
+
+body{
+    margin: 0 auto;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
+
+/* RESPONSIVE */
